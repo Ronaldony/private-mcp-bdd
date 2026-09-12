@@ -1,0 +1,103 @@
+{
+  "artifact_kind": "design_contract_not_mcp_wire_schema",
+  "status": "draft",
+  "tool_name": "",
+  "purpose": "",
+  "non_goals": [],
+  "compatibility": {
+    "protocol_versions": [],
+    "host_requirements": []
+  },
+  "input_contract": {
+    "json_schema": null,
+    "semantic_constraints": [],
+    "untrusted_fields": []
+  },
+  "output_contract": {
+    "json_schema": null,
+    "meaning": "",
+    "provenance": "",
+    "pagination": "",
+    "truncation_policy": "",
+    "max_output_bytes": null
+  },
+  "identity": {
+    "verified_source": "",
+    "user_or_service": "",
+    "tenant_derivation": "",
+    "model_claim_handling": ""
+  },
+  "authorization": {
+    "enforcement_point": "",
+    "resource_resolution": "",
+    "rules": [],
+    "revocation_behavior": ""
+  },
+  "effects": {
+    "read": null,
+    "write": null,
+    "external_send": null,
+    "execution": null,
+    "cost_incurred": null,
+    "data_classes": [],
+    "approved_destinations": []
+  },
+  "approval": {
+    "applicable": null,
+    "reason": "",
+    "trusted_authority": "",
+    "binding": [],
+    "expiry": "",
+    "replay_protection": ""
+  },
+  "idempotency": {
+    "applicable": null,
+    "reason": "",
+    "key_scope": "",
+    "canonical_arguments": "",
+    "atomic_claim": "",
+    "conflicting_key": "",
+    "downstream_support": "",
+    "unknown_outcome_reconciliation": ""
+  },
+  "limits": {
+    "timeout_ms": null,
+    "max_input_bytes": null,
+    "max_output_bytes": null,
+    "max_concurrency": null,
+    "cost_budget": "",
+    "retry_budget": ""
+  },
+  "errors": {
+    "protocol_errors": [],
+    "tool_errors": [],
+    "partial_success": "",
+    "unknown_outcome": "",
+    "cancellation_semantics": ""
+  },
+  "state": {
+    "applicable": null,
+    "handle_owner": "",
+    "authorization": "",
+    "expiry": "",
+    "restart": "",
+    "mrtr_integrity_and_binding": "",
+    "single_use": ""
+  },
+  "data_lifecycle": {
+    "cache_policy": "",
+    "auth_context_isolation": "",
+    "retention": "",
+    "deletion_limits": "",
+    "artifact_access": ""
+  },
+  "audit": {
+    "required_fields": [],
+    "redacted_fields": [],
+    "correlation": ""
+  },
+  "tests": [],
+  "owner": "",
+  "reviewer": "",
+  "evidence": []
+}
